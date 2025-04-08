@@ -1,8 +1,6 @@
-🧠 Dependency Conflicts Therapist
+## 🧠 Dependency Conflicts Therapist
 
 Welcome to **Dependency Conflicts Therapist** – a growing collection of guides and best practices for managing Python environments, resolving dependency conflicts, and keeping your projects healthy and maintainable.
-
-Whether you’re dealing with version hell, fighting `pip` quirks, or just want to follow good practices for Python development, this repo is here to help you debug with less drama.
 
 ---
 
@@ -19,7 +17,7 @@ Whether you’re dealing with version hell, fighting `pip` quirks, or just want 
 
 Below is a curated index of guides available in this repository. Each one targets a specific problem or best practice.
 
-### 1. [Using `pyenv` and `virtualenv` to Create Isolated Python Environments](./guides/pyenv-and-virtualenv.md)  
+### 1. [Using `pyenv` and `virtualenv` to Create Isolated Python Environments](https://github.com/maritaganta/dependency_conflicts_therapist/blob/main/guides/pyenv-and-virtualenv.md)  
 **Location:** `guides/pyenv-and-virtualenv.md`  
 This guide walks you through setting up `pyenv` and `virtualenv` to manage multiple Python versions and create clean, isolated environments for your projects. Ideal for developers working on multiple codebases or needing to test across Python versions.
 

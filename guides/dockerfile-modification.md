@@ -21,6 +21,8 @@ Specifically, change the `build_image.sh` and the `run_user.sh` files to instead
 
 The Dockerfile is a centralised document where all of the installation commands are written in a sequential manner. Specifically, observe the commands that follow `RUN`.
 
+## Take a look at what is already being installed
+
 Notice how `python` is installed, along with other helpful things like `git` or `terminator`.
 
 ```
@@ -71,6 +73,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
 
 The above are the exact commands that you would need to run on your system to install ROS.
 
+## Make your own modifications
+
+If you know that there are some things that you do not need, maybe even the whole ROS block, just delete it.
 
 Now let's assume that you want to install specific python packages. You just add a `RUN` block, like so:
 
